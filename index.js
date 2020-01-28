@@ -61,7 +61,7 @@ function makePersonObject(id, name, email) {
  * the returned value should look like `Hello, my name is Leia`.
 */
 function getName(object) {
-  return `Hello, my name is ${object.name}`
+  return `Hello, my name is ${ object. name }`
 }
 
 /**
@@ -289,6 +289,7 @@ function getGermanCars(inventory) {
  *   return num * 2
  * }
 */
+
 const sum = (a, b) => { return a + b; }
 const addFive = (num) => { return num + 5; }
 const argTimesTwo = (num) => { return num * 2; }
